@@ -1,0 +1,2261 @@
+{
+ "max": 256,
+ "sprites": {
+  "hero": {
+   "file": "hero.png",
+   "w": 81,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 130,
+    "y": 66,
+    "w": 280,
+    "h": 890
+   }
+  },
+  "machinegun": {
+   "file": "machinegun.png",
+   "w": 95,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 620,
+    "y": 121,
+    "w": 305,
+    "h": 821
+   }
+  },
+  "railgun": {
+   "file": "railgun.png",
+   "w": 91,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 1129,
+    "y": 85,
+    "w": 305,
+    "h": 857
+   }
+  },
+  "mortar": {
+   "file": "mortar.png",
+   "w": 95,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 1638,
+    "y": 121,
+    "w": 305,
+    "h": 821
+   }
+  },
+  "flamer": {
+   "file": "flamer.png",
+   "w": 92,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 117,
+    "y": 1064,
+    "w": 309,
+    "h": 860
+   }
+  },
+  "tesla": {
+   "file": "tesla.png",
+   "w": 101,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 621,
+    "y": 1137,
+    "w": 311,
+    "h": 787
+   }
+  },
+  "collector": {
+   "file": "collector.png",
+   "w": 104,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-train-v2",
+   "src": {
+    "x": 1129,
+    "y": 1163,
+    "w": 308,
+    "h": 761
+   }
+  },
+  "car_flat": {
+   "file": "car_flat.png",
+   "w": 97,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 87,
+    "y": 56,
+    "w": 338,
+    "h": 893
+   }
+  },
+  "car_hero": {
+   "file": "car_hero.png",
+   "w": 88,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 615,
+    "y": 52,
+    "w": 306,
+    "h": 893
+   }
+  },
+  "turret_hero": {
+   "file": "turret_hero.png",
+   "w": 127,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.753
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 1122,
+    "y": 287,
+    "w": 316,
+    "h": 639
+   }
+  },
+  "turret_machinegun": {
+   "file": "turret_machinegun.png",
+   "w": 209,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.592
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 1644,
+    "y": 553,
+    "w": 296,
+    "h": 363
+   }
+  },
+  "turret_railgun": {
+   "file": "turret_railgun.png",
+   "w": 96,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.801
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 92,
+    "y": 1080,
+    "w": 328,
+    "h": 876
+   }
+  },
+  "turret_mortar": {
+   "file": "turret_mortar.png",
+   "w": 247,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.488
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 1628,
+    "y": 1104,
+    "w": 328,
+    "h": 340
+   }
+  },
+  "turret_unused": {
+   "file": "turret_unused.png",
+   "w": 246,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 604,
+    "y": 1614,
+    "w": 328,
+    "h": 342
+   }
+  },
+  "turret_flamer": {
+   "file": "turret_flamer.png",
+   "w": 173,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.642
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 1116,
+    "y": 1470,
+    "w": 328,
+    "h": 486
+   }
+  },
+  "turret_tesla": {
+   "file": "turret_tesla.png",
+   "w": 246,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.491
+   },
+   "sheet": "sheet-turret-v1",
+   "src": {
+    "x": 1628,
+    "y": 1614,
+    "w": 328,
+    "h": 342
+   }
+  },
+  "turret_sniper": {
+   "file": "turret_sniper.png",
+   "w": 144,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.77
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 240,
+    "y": 35,
+    "w": 288,
+    "h": 511
+   }
+  },
+  "turret_laser": {
+   "file": "turret_laser.png",
+   "w": 185,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.703
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 881,
+    "y": 151,
+    "w": 286,
+    "h": 395
+   }
+  },
+  "turret_missile": {
+   "file": "turret_missile.png",
+   "w": 200,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.682
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 1521,
+    "y": 178,
+    "w": 287,
+    "h": 368
+   }
+  },
+  "turret_mlrs": {
+   "file": "turret_mlrs.png",
+   "w": 201,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.699
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 239,
+    "y": 841,
+    "w": 288,
+    "h": 367
+   }
+  },
+  "turret_incendiary": {
+   "file": "turret_incendiary.png",
+   "w": 246,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.635
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 881,
+    "y": 853,
+    "w": 341,
+    "h": 355
+   }
+  },
+  "turret_flak": {
+   "file": "turret_flak.png",
+   "w": 220,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.602
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 1523,
+    "y": 773,
+    "w": 374,
+    "h": 435
+   }
+  },
+  "car_ammo": {
+   "file": "car_ammo.png",
+   "w": 143,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 259,
+    "y": 1442,
+    "w": 238,
+    "h": 426
+   }
+  },
+  "car_repair": {
+   "file": "car_repair.png",
+   "w": 174,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 757,
+    "y": 1481,
+    "w": 533,
+    "h": 363
+   }
+  },
+  "car_observer": {
+   "file": "car_observer.png",
+   "w": 212,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-turret2-v1",
+   "src": {
+    "x": 1401,
+    "y": 1400,
+    "w": 535,
+    "h": 444
+   }
+  },
+  "turret_machinegun_t1": {
+   "file": "turret_machinegun_t1.png",
+   "w": 195,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.624
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 177,
+    "y": 37,
+    "w": 322,
+    "h": 423
+   }
+  },
+  "turret_machinegun_t2": {
+   "file": "turret_machinegun_t2.png",
+   "w": 195,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.624
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 863,
+    "y": 37,
+    "w": 322,
+    "h": 423
+   }
+  },
+  "turret_machinegun_t3": {
+   "file": "turret_machinegun_t3.png",
+   "w": 188,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.638
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 1549,
+    "y": 21,
+    "w": 322,
+    "h": 439
+   }
+  },
+  "turret_railgun_t1": {
+   "file": "turret_railgun_t1.png",
+   "w": 187,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.64
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 177,
+    "y": 536,
+    "w": 322,
+    "h": 440
+   }
+  },
+  "turret_railgun_t2": {
+   "file": "turret_railgun_t2.png",
+   "w": 182,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.651
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 863,
+    "y": 522,
+    "w": 322,
+    "h": 454
+   }
+  },
+  "turret_railgun_t3": {
+   "file": "turret_railgun_t3.png",
+   "w": 183,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.631
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 1548,
+    "y": 531,
+    "w": 324,
+    "h": 454
+   }
+  },
+  "turret_sniper_t1": {
+   "file": "turret_sniper_t1.png",
+   "w": 183,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.663
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 166,
+    "y": 1036,
+    "w": 329,
+    "h": 459
+   }
+  },
+  "turret_sniper_t2": {
+   "file": "turret_sniper_t2.png",
+   "w": 183,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.664
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 860,
+    "y": 1035,
+    "w": 328,
+    "h": 460
+   }
+  },
+  "turret_sniper_t3": {
+   "file": "turret_sniper_t3.png",
+   "w": 183,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.664
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 1559,
+    "y": 1035,
+    "w": 329,
+    "h": 460
+   }
+  },
+  "turret_laser_t1": {
+   "file": "turret_laser_t1.png",
+   "w": 233,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.547
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 165,
+    "y": 1628,
+    "w": 329,
+    "h": 361
+   }
+  },
+  "turret_laser_t2": {
+   "file": "turret_laser_t2.png",
+   "w": 238,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.538
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 859,
+    "y": 1635,
+    "w": 329,
+    "h": 354
+   }
+  },
+  "turret_laser_t3": {
+   "file": "turret_laser_t3.png",
+   "w": 251,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.51
+   },
+   "sheet": "sheet-turret-tier-a-v1",
+   "src": {
+    "x": 1569,
+    "y": 1655,
+    "w": 328,
+    "h": 334
+   }
+  },
+  "turret_cannon_t1": {
+   "file": "turret_cannon_t1.png",
+   "w": 179,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.654
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 179,
+    "y": 44,
+    "w": 316,
+    "h": 452
+   }
+  },
+  "turret_cannon_t2": {
+   "file": "turret_cannon_t2.png",
+   "w": 171,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.669
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 865,
+    "y": 21,
+    "w": 318,
+    "h": 476
+   }
+  },
+  "turret_cannon_t3": {
+   "file": "turret_cannon_t3.png",
+   "w": 195,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.665
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 1519,
+    "y": 13,
+    "w": 374,
+    "h": 491
+   }
+  },
+  "turret_mortar_t1": {
+   "file": "turret_mortar_t1.png",
+   "w": 247,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.518
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 179,
+    "y": 648,
+    "w": 316,
+    "h": 328
+   }
+  },
+  "turret_mortar_t2": {
+   "file": "turret_mortar_t2.png",
+   "w": 244,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.526
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 865,
+    "y": 643,
+    "w": 318,
+    "h": 333
+   }
+  },
+  "turret_mortar_t3": {
+   "file": "turret_mortar_t3.png",
+   "w": 232,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.556
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 1545,
+    "y": 618,
+    "w": 326,
+    "h": 360
+   }
+  },
+  "turret_mlrs_t1": {
+   "file": "turret_mlrs_t1.png",
+   "w": 244,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.521
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 178,
+    "y": 1138,
+    "w": 317,
+    "h": 333
+   }
+  },
+  "turret_mlrs_t2": {
+   "file": "turret_mlrs_t2.png",
+   "w": 224,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.562
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 865,
+    "y": 1107,
+    "w": 318,
+    "h": 364
+   }
+  },
+  "turret_mlrs_t3": {
+   "file": "turret_mlrs_t3.png",
+   "w": 256,
+   "h": 251,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.567
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 1517,
+    "y": 1100,
+    "w": 381,
+    "h": 373
+   }
+  },
+  "turret_missile_t1": {
+   "file": "turret_missile_t1.png",
+   "w": 239,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.529
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 177,
+    "y": 1642,
+    "w": 318,
+    "h": 340
+   }
+  },
+  "turret_missile_t2": {
+   "file": "turret_missile_t2.png",
+   "w": 216,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.574
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 864,
+    "y": 1605,
+    "w": 319,
+    "h": 378
+   }
+  },
+  "turret_missile_t3": {
+   "file": "turret_missile_t3.png",
+   "w": 209,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.606
+   },
+   "sheet": "sheet-turret-tier-b-v1",
+   "src": {
+    "x": 1541,
+    "y": 1554,
+    "w": 360,
+    "h": 442
+   }
+  },
+  "turret_incendiary_t1": {
+   "file": "turret_incendiary_t1.png",
+   "w": 256,
+   "h": 253,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.492
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 112,
+    "y": 100,
+    "w": 330,
+    "h": 326
+   }
+  },
+  "turret_incendiary_t2": {
+   "file": "turret_incendiary_t2.png",
+   "w": 256,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.511
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 820,
+    "y": 69,
+    "w": 375,
+    "h": 375
+   }
+  },
+  "turret_incendiary_t3": {
+   "file": "turret_incendiary_t3.png",
+   "w": 256,
+   "h": 239,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.52
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 1486,
+    "y": 50,
+    "w": 433,
+    "h": 405
+   }
+  },
+  "turret_flamer_t1": {
+   "file": "turret_flamer_t1.png",
+   "w": 234,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.545
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 116,
+    "y": 598,
+    "w": 322,
+    "h": 353
+   }
+  },
+  "turret_flamer_t2": {
+   "file": "turret_flamer_t2.png",
+   "w": 212,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.578
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 835,
+    "y": 550,
+    "w": 345,
+    "h": 416
+   }
+  },
+  "turret_flamer_t3": {
+   "file": "turret_flamer_t3.png",
+   "w": 256,
+   "h": 232,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.595
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 1464,
+    "y": 533,
+    "w": 477,
+    "h": 433
+   }
+  },
+  "turret_tesla_t1": {
+   "file": "turret_tesla_t1.png",
+   "w": 239,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.551
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 112,
+    "y": 1123,
+    "w": 331,
+    "h": 354
+   }
+  },
+  "turret_tesla_t2": {
+   "file": "turret_tesla_t2.png",
+   "w": 202,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.614
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 838,
+    "y": 1060,
+    "w": 332,
+    "h": 420
+   }
+  },
+  "turret_tesla_t3": {
+   "file": "turret_tesla_t3.png",
+   "w": 256,
+   "h": 212,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.63
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 1443,
+    "y": 1046,
+    "w": 521,
+    "h": 432
+   }
+  },
+  "turret_flak_t1": {
+   "file": "turret_flak_t1.png",
+   "w": 227,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.59
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 110,
+    "y": 1614,
+    "w": 332,
+    "h": 374
+   }
+  },
+  "turret_flak_t2": {
+   "file": "turret_flak_t2.png",
+   "w": 204,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.648
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 826,
+    "y": 1552,
+    "w": 347,
+    "h": 436
+   }
+  },
+  "turret_flak_t3": {
+   "file": "turret_flak_t3.png",
+   "w": 256,
+   "h": 198,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.643
+   },
+   "sheet": "sheet-turret-tier-c-v1",
+   "src": {
+    "x": 1423,
+    "y": 1558,
+    "w": 557,
+    "h": 430
+   }
+  },
+  "hill": {
+   "file": "hill.png",
+   "w": 256,
+   "h": 240,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 29,
+    "y": 30,
+    "w": 625,
+    "h": 586
+   }
+  },
+  "wall": {
+   "file": "wall.png",
+   "w": 256,
+   "h": 240,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 710,
+    "y": 30,
+    "w": 626,
+    "h": 586
+   }
+  },
+  "wall_broken": {
+   "file": "wall_broken.png",
+   "w": 256,
+   "h": 240,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 1393,
+    "y": 30,
+    "w": 625,
+    "h": 586
+   }
+  },
+  "pond": {
+   "file": "pond.png",
+   "w": 256,
+   "h": 245,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 29,
+    "y": 703,
+    "w": 625,
+    "h": 598
+   }
+  },
+  "lake": {
+   "file": "lake.png",
+   "w": 256,
+   "h": 245,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 710,
+    "y": 703,
+    "w": 626,
+    "h": 598
+   }
+  },
+  "station": {
+   "file": "station.png",
+   "w": 256,
+   "h": 245,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 1393,
+    "y": 703,
+    "w": 625,
+    "h": 598
+   }
+  },
+  "core": {
+   "file": "core.png",
+   "w": 256,
+   "h": 233,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 29,
+    "y": 1392,
+    "w": 625,
+    "h": 568
+   }
+  },
+  "scrap": {
+   "file": "scrap.png",
+   "w": 256,
+   "h": 232,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-terrain-v1",
+   "src": {
+    "x": 710,
+    "y": 1392,
+    "w": 626,
+    "h": 568
+   }
+  },
+  "zombie": {
+   "file": "zombie.png",
+   "w": 157,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 234,
+    "y": 113,
+    "w": 211,
+    "h": 343
+   }
+  },
+  "hound": {
+   "file": "hound.png",
+   "w": 95,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 953,
+    "y": 98,
+    "w": 137,
+    "h": 371
+   }
+  },
+  "archer": {
+   "file": "archer.png",
+   "w": 222,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 1592,
+    "y": 149,
+    "w": 235,
+    "h": 271
+   }
+  },
+  "mortar_team": {
+   "file": "mortar_team.png",
+   "w": 256,
+   "h": 161,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 72,
+    "y": 768,
+    "w": 522,
+    "h": 328
+   }
+  },
+  "shield_orc": {
+   "file": "shield_orc.png",
+   "w": 224,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 850,
+    "y": 738,
+    "w": 358,
+    "h": 409
+   }
+  },
+  "slime": {
+   "file": "slime.png",
+   "w": 256,
+   "h": 184,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 1485,
+    "y": 738,
+    "w": 440,
+    "h": 316
+   }
+  },
+  "drummer": {
+   "file": "drummer.png",
+   "w": 239,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 123,
+    "y": 1465,
+    "w": 419,
+    "h": 449
+   }
+  },
+  "ogre": {
+   "file": "ogre.png",
+   "w": 256,
+   "h": 210,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 758,
+    "y": 1454,
+    "w": 573,
+    "h": 471
+   }
+  },
+  "boss_gram": {
+   "file": "boss_gram.png",
+   "w": 202,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-v1",
+   "src": {
+    "x": 1414,
+    "y": 1209,
+    "w": 572,
+    "h": 726
+   }
+  },
+  "swamp_crawler": {
+   "file": "swamp_crawler.png",
+   "w": 256,
+   "h": 208,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-amphib-v1",
+   "src": {
+    "x": 28,
+    "y": 956,
+    "w": 462,
+    "h": 376
+   }
+  },
+  "frog_warrior": {
+   "file": "frog_warrior.png",
+   "w": 185,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-amphib-v1",
+   "src": {
+    "x": 552,
+    "y": 724,
+    "w": 411,
+    "h": 570
+   }
+  },
+  "landing_craft": {
+   "file": "landing_craft.png",
+   "w": 147,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-amphib-v1",
+   "src": {
+    "x": 1091,
+    "y": 732,
+    "w": 377,
+    "h": 658
+   }
+  },
+  "abyss_tentacle": {
+   "file": "abyss_tentacle.png",
+   "w": 150,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-amphib-v1",
+   "src": {
+    "x": 1556,
+    "y": 614,
+    "w": 458,
+    "h": 784
+   }
+  },
+  "bomb_bat": {
+   "file": "bomb_bat.png",
+   "w": 256,
+   "h": 171,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-air-v1",
+   "src": {
+    "x": 134,
+    "y": 369,
+    "w": 429,
+    "h": 286
+   }
+  },
+  "gargoyle": {
+   "file": "gargoyle.png",
+   "w": 256,
+   "h": 199,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-air-v1",
+   "src": {
+    "x": 748,
+    "y": 277,
+    "w": 552,
+    "h": 429
+   }
+  },
+  "scout_drone": {
+   "file": "scout_drone.png",
+   "w": 256,
+   "h": 184,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-air-v1",
+   "src": {
+    "x": 1496,
+    "y": 348,
+    "w": 398,
+    "h": 286
+   }
+  },
+  "wyvern": {
+   "file": "wyvern.png",
+   "w": 256,
+   "h": 182,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-air-v1",
+   "src": {
+    "x": 94,
+    "y": 1096,
+    "w": 880,
+    "h": 624
+   }
+  },
+  "zeppelin": {
+   "file": "zeppelin.png",
+   "w": 185,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-air-v1",
+   "src": {
+    "x": 1270,
+    "y": 1024,
+    "w": 502,
+    "h": 696
+   }
+  },
+  "siege_worm": {
+   "file": "siege_worm.png",
+   "w": 256,
+   "h": 155,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-siege-v1",
+   "src": {
+    "x": 66,
+    "y": 927,
+    "w": 482,
+    "h": 292
+   }
+  },
+  "saboteur": {
+   "file": "saboteur.png",
+   "w": 181,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-siege-v1",
+   "src": {
+    "x": 676,
+    "y": 866,
+    "w": 257,
+    "h": 363
+   }
+  },
+  "hook_raider": {
+   "file": "hook_raider.png",
+   "w": 174,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-siege-v1",
+   "src": {
+    "x": 1054,
+    "y": 748,
+    "w": 328,
+    "h": 482
+   }
+  },
+  "siege_ram": {
+   "file": "siege_ram.png",
+   "w": 250,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-siege-v1",
+   "src": {
+    "x": 1470,
+    "y": 727,
+    "w": 506,
+    "h": 519
+   }
+  },
+  "goblin_raider": {
+   "file": "goblin_raider.png",
+   "w": 191,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-runner-v1",
+   "src": {
+    "x": 41,
+    "y": 369,
+    "w": 389,
+    "h": 522
+   }
+  },
+  "skeleton": {
+   "file": "skeleton.png",
+   "w": 157,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-runner-v1",
+   "src": {
+    "x": 604,
+    "y": 256,
+    "w": 389,
+    "h": 635
+   }
+  },
+  "frenzy_boar": {
+   "file": "frenzy_boar.png",
+   "w": 149,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-runner-v1",
+   "src": {
+    "x": 1116,
+    "y": 328,
+    "w": 328,
+    "h": 563
+   }
+  },
+  "rat_swarm": {
+   "file": "rat_swarm.png",
+   "w": 191,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-runner-v1",
+   "src": {
+    "x": 1587,
+    "y": 328,
+    "w": 420,
+    "h": 563
+   }
+  },
+  "troll": {
+   "file": "troll.png",
+   "w": 256,
+   "h": 236,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-armor-v1",
+   "src": {
+    "x": 61,
+    "y": 92,
+    "w": 932,
+    "h": 860
+   }
+  },
+  "scrap_golem": {
+   "file": "scrap_golem.png",
+   "w": 256,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-armor-v1",
+   "src": {
+    "x": 1147,
+    "y": 144,
+    "w": 778,
+    "h": 778
+   }
+  },
+  "armor_beetle": {
+   "file": "armor_beetle.png",
+   "w": 256,
+   "h": 252,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-armor-v1",
+   "src": {
+    "x": 195,
+    "y": 1209,
+    "w": 675,
+    "h": 665
+   }
+  },
+  "armored_truck": {
+   "file": "armored_truck.png",
+   "w": 193,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-armor-v1",
+   "src": {
+    "x": 1250,
+    "y": 1116,
+    "w": 572,
+    "h": 758
+   }
+  },
+  "musket_bandit": {
+   "file": "musket_bandit.png",
+   "w": 220,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-skirm-v1",
+   "src": {
+    "x": 154,
+    "y": 113,
+    "w": 440,
+    "h": 512
+   }
+  },
+  "acid_spitter": {
+   "file": "acid_spitter.png",
+   "w": 234,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-skirm-v1",
+   "src": {
+    "x": 799,
+    "y": 154,
+    "w": 430,
+    "h": 471
+   }
+  },
+  "shadow_assassin": {
+   "file": "shadow_assassin.png",
+   "w": 204,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-skirm-v1",
+   "src": {
+    "x": 1487,
+    "y": 104,
+    "w": 416,
+    "h": 521
+   }
+  },
+  "acid_slime": {
+   "file": "acid_slime.png",
+   "w": 256,
+   "h": 247,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-swarm-v1",
+   "src": {
+    "x": 123,
+    "y": 901,
+    "w": 287,
+    "h": 277
+   }
+  },
+  "slime_queen": {
+   "file": "slime_queen.png",
+   "w": 256,
+   "h": 246,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-swarm-v1",
+   "src": {
+    "x": 512,
+    "y": 666,
+    "w": 532,
+    "h": 512
+   }
+  },
+  "necromancer": {
+   "file": "necromancer.png",
+   "w": 164,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-swarm-v1",
+   "src": {
+    "x": 1168,
+    "y": 717,
+    "w": 296,
+    "h": 461
+   }
+  },
+  "spore_trent": {
+   "file": "spore_trent.png",
+   "w": 186,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-swarm-v1",
+   "src": {
+    "x": 1639,
+    "y": 799,
+    "w": 276,
+    "h": 379
+   }
+  },
+  "orc_shaman": {
+   "file": "orc_shaman.png",
+   "w": 186,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-support-v1",
+   "src": {
+    "x": 86,
+    "y": 154,
+    "w": 530,
+    "h": 731
+   }
+  },
+  "shield_bearer": {
+   "file": "shield_bearer.png",
+   "w": 252,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-support-v1",
+   "src": {
+    "x": 784,
+    "y": 326,
+    "w": 537,
+    "h": 546
+   }
+  },
+  "smoke_truck": {
+   "file": "smoke_truck.png",
+   "w": 256,
+   "h": 196,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-support-v1",
+   "src": {
+    "x": 179,
+    "y": 1152,
+    "w": 891,
+    "h": 682
+   }
+  },
+  "banner_lord": {
+   "file": "banner_lord.png",
+   "w": 248,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-support-v1",
+   "src": {
+    "x": 1144,
+    "y": 958,
+    "w": 848,
+    "h": 876
+   }
+  },
+  "necro_lord": {
+   "file": "necro_lord.png",
+   "w": 201,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-necro-v1",
+   "src": {
+    "x": 207,
+    "y": 105,
+    "w": 929,
+    "h": 1184
+   }
+  },
+  "necro_lord_cast": {
+   "file": "necro_lord_cast.png",
+   "w": 217,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sheet-enemy-necro-v1",
+   "src": {
+    "x": 1530,
+    "y": 84,
+    "w": 1023,
+    "h": 1205
+   }
+  },
+  "sabo_bomb": {
+   "file": "sabo_bomb.png",
+   "w": 189,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "sprite-sabo-bomb-v1",
+   "src": {
+    "x": 378,
+    "y": 276,
+    "w": 288,
+    "h": 391
+   }
+  },
+  "explode_1": {
+   "file": "explode_1.png",
+   "w": 124,
+   "h": 124,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 107,
+    "y": 107,
+    "w": 124,
+    "h": 124
+   }
+  },
+  "explode_2": {
+   "file": "explode_2.png",
+   "w": 174,
+   "h": 174,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 425,
+    "y": 87,
+    "w": 174,
+    "h": 174
+   }
+  },
+  "explode_3": {
+   "file": "explode_3.png",
+   "w": 226,
+   "h": 226,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 742,
+    "y": 56,
+    "w": 226,
+    "h": 226
+   }
+  },
+  "explode_4": {
+   "file": "explode_4.png",
+   "w": 256,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1049,
+    "y": 25,
+    "w": 288,
+    "h": 288
+   }
+  },
+  "explode_5": {
+   "file": "explode_5.png",
+   "w": 247,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1397,
+    "y": 25,
+    "w": 278,
+    "h": 288
+   }
+  },
+  "explode_6": {
+   "file": "explode_6.png",
+   "w": 247,
+   "h": 256,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1735,
+    "y": 25,
+    "w": 278,
+    "h": 288
+   }
+  },
+  "muzzle_1": {
+   "file": "muzzle_1.png",
+   "w": 75,
+   "h": 74,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 117,
+    "y": 443,
+    "w": 75,
+    "h": 74
+   }
+  },
+  "muzzle_2": {
+   "file": "muzzle_2.png",
+   "w": 113,
+   "h": 108,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 404,
+    "y": 427,
+    "w": 113,
+    "h": 108
+   }
+  },
+  "muzzle_3": {
+   "file": "muzzle_3.png",
+   "w": 138,
+   "h": 152,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 689,
+    "y": 404,
+    "w": 138,
+    "h": 152
+   }
+  },
+  "flame_1": {
+   "file": "flame_1.png",
+   "w": 154,
+   "h": 196,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 77,
+    "y": 691,
+    "w": 154,
+    "h": 196
+   }
+  },
+  "flame_2": {
+   "file": "flame_2.png",
+   "w": 153,
+   "h": 216,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 384,
+    "y": 671,
+    "w": 153,
+    "h": 216
+   }
+  },
+  "flame_3": {
+   "file": "flame_3.png",
+   "w": 154,
+   "h": 216,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 681,
+    "y": 671,
+    "w": 154,
+    "h": 216
+   }
+  },
+  "flame_4": {
+   "file": "flame_4.png",
+   "w": 154,
+   "h": 206,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 988,
+    "y": 681,
+    "w": 154,
+    "h": 206
+   }
+  },
+  "flame_5": {
+   "file": "flame_5.png",
+   "w": 144,
+   "h": 228,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1295,
+    "y": 659,
+    "w": 144,
+    "h": 228
+   }
+  },
+  "spark_1": {
+   "file": "spark_1.png",
+   "w": 76,
+   "h": 78,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 112,
+    "y": 1019,
+    "w": 76,
+    "h": 78
+   }
+  },
+  "spark_2": {
+   "file": "spark_2.png",
+   "w": 136,
+   "h": 146,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 387,
+    "y": 985,
+    "w": 136,
+    "h": 146
+   }
+  },
+  "spark_3": {
+   "file": "spark_3.png",
+   "w": 135,
+   "h": 146,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 690,
+    "y": 981,
+    "w": 135,
+    "h": 146
+   }
+  },
+  "smoke_1": {
+   "file": "smoke_1.png",
+   "w": 123,
+   "h": 124,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 87,
+    "y": 1295,
+    "w": 123,
+    "h": 124
+   }
+  },
+  "smoke_2": {
+   "file": "smoke_2.png",
+   "w": 184,
+   "h": 170,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 353,
+    "y": 1269,
+    "w": 184,
+    "h": 170
+   }
+  },
+  "smoke_3": {
+   "file": "smoke_3.png",
+   "w": 220,
+   "h": 206,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 635,
+    "y": 1249,
+    "w": 220,
+    "h": 206
+   }
+  },
+  "smoke_4": {
+   "file": "smoke_4.png",
+   "w": 246,
+   "h": 236,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 927,
+    "y": 1234,
+    "w": 246,
+    "h": 236
+   }
+  },
+  "smoke_5": {
+   "file": "smoke_5.png",
+   "w": 213,
+   "h": 219,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1245,
+    "y": 1245,
+    "w": 213,
+    "h": 219
+   }
+  },
+  "arc_1": {
+   "file": "arc_1.png",
+   "w": 256,
+   "h": 76,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 57,
+    "y": 1587,
+    "w": 398,
+    "h": 118
+   }
+  },
+  "arc_2": {
+   "file": "arc_2.png",
+   "w": 256,
+   "h": 76,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 558,
+    "y": 1582,
+    "w": 420,
+    "h": 124
+   }
+  },
+  "arc_3": {
+   "file": "arc_3.png",
+   "w": 256,
+   "h": 78,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 1073,
+    "y": 1593,
+    "w": 402,
+    "h": 122
+   }
+  },
+  "sparkle_1": {
+   "file": "sparkle_1.png",
+   "w": 61,
+   "h": 64,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 98,
+    "y": 1887,
+    "w": 61,
+    "h": 64
+   }
+  },
+  "sparkle_2": {
+   "file": "sparkle_2.png",
+   "w": 102,
+   "h": 102,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 337,
+    "y": 1869,
+    "w": 102,
+    "h": 102
+   }
+  },
+  "sparkle_3": {
+   "file": "sparkle_3.png",
+   "w": 138,
+   "h": 143,
+   "anchor": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "sheet": "fx-sheet-v1",
+   "src": {
+    "x": 581,
+    "y": 1848,
+    "w": 138,
+    "h": 143
+   }
+  }
+ }
+}

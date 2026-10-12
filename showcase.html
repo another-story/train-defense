@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Train Defense — 쇼케이스 허브</title>
+  <link rel="icon" href="data:," />
+  <style>
+    :root {
+      --bg: #12160c; --panel: #1c2113; --line: #2f3722; --ink: #dfe6cf;
+      --dim: #94a081; --gold: #e0b64a; --hot: #d9744a; --cool: #6fa8c8;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink);
+      font: 14px/1.55 "Pretendard", "Apple SD Gothic Neo", system-ui, sans-serif; }
+    canvas { image-rendering: pixelated; }
+    header { position: sticky; top: 0; z-index: 5; background: #0d1108ee;
+      border-bottom: 1px solid var(--line); backdrop-filter: blur(4px); }
+    .bar { max-width: 1180px; margin: 0 auto; padding: 10px 18px; display: flex;
+      align-items: baseline; gap: 18px; flex-wrap: wrap; }
+    .brand { font-weight: 700; letter-spacing: .04em; color: var(--gold); }
+    .brand small { color: var(--dim); font-weight: 400; margin-left: 8px; letter-spacing: 0; }
+    nav { display: flex; gap: 4px; margin-left: auto; }
+    nav button { background: none; border: 1px solid transparent; color: var(--dim);
+      padding: 5px 13px; border-radius: 5px; cursor: pointer; font: inherit; }
+    nav button:hover { color: var(--ink); }
+    nav button[aria-selected="true"] { color: #12160c; background: var(--gold); font-weight: 700; }
+    main { max-width: 1180px; margin: 0 auto; padding: 22px 18px 70px; }
+    h2 { font-size: 19px; margin: 30px 0 4px; }
+    h2:first-child { margin-top: 4px; }
+    h2 + .note { color: var(--dim); margin: 0 0 14px; font-size: 13px; }
+    .note code, code { background: #0000004d; padding: 1px 5px; border-radius: 3px; font-size: .92em; }
+    section[hidden] { display: none; }
+    .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(178px, 1fr)); }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 7px;
+      padding: 9px 11px 11px; }
+    .card .top { display: flex; align-items: center; gap: 9px; }
+    .card canvas { flex: none; background: #0000002e; border-radius: 4px; }
+    .card .name { font-weight: 600; }
+    .card .key { color: var(--dim); font-size: 11px; font-family: ui-monospace, monospace; }
+    .stat { display: flex; gap: 9px; margin-top: 7px; font-size: 12px; color: var(--dim);
+      flex-wrap: wrap; }
+    .stat b { color: var(--ink); font-weight: 600; }
+    .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+    .tag { font-size: 11px; border: 1px solid var(--line); border-radius: 999px;
+      padding: 1px 7px; color: var(--cool); }
+    .tag.sub { color: var(--dim); }
+    .tag.var { color: var(--gold); }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 6px 9px; text-align: left; }
+    th { color: var(--dim); font-weight: 600; }
+    td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+    .kpi { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 4px; }
+    .kpi div { background: var(--panel); border: 1px solid var(--line); border-radius: 7px;
+      padding: 9px 15px; }
+    .kpi b { display: block; font-size: 22px; color: var(--gold); line-height: 1.2; }
+    .kpi span { color: var(--dim); font-size: 12px; }
+    .branch { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 9px; }
+    .branch div { border: 1px solid var(--line); border-radius: 5px; padding: 6px 9px; font-size: 12px; }
+    .branch b { color: var(--hot); }
+    .branch p { margin: 2px 0 0; color: var(--dim); }
+    .wide { grid-column: 1 / -1; }
+    .warn { border: 1px solid var(--hot); border-radius: 7px; padding: 9px 13px; color: var(--hot); }
+    .fx { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .fx .strip { display: flex; gap: 4px; }
+    ul { padding-left: 20px; } li { margin: 3px 0; }
+    a { color: var(--cool); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="brand">Train Defense<small>쇼케이스 허브 — 에셋·수치·이펙트 검수 (DESIGN §10 0.5단계)</small></div>
+      <nav id="tabs"></nav>
+    </div>
+  </header>
+  <main id="main">불러오는 중…</main>
+  <script type="module" src="/src/showcase/hub.ts"></script>
+</body>
+</html>

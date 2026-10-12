@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#202b25" />
+  <title>사운드 도감 · Train Defense</title>
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="/">TRAIN DEFENSE <span>철도 방위대</span></a><a class="back" href="/">← 게임으로</a></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">철도 정비소 / AUDIO ARCHIVE</p><h1>사운드 도감</h1><p class="lede">포신의 한 발부터 괴물의 포효까지.<br>전장의 효과음과 게임에 적용된 배경음악을 들어보세요.</p></div><div class="stamp"><strong>62</strong><span>개의 효과음</span><small>게임 BGM 1곡</small></div></section>
+    <section class="console" aria-label="미리듣기 설정"><div class="play-status"><span class="signal" aria-hidden="true"></span><span id="status" role="status" aria-live="polite">듣기 버튼을 누르면 재생합니다.</span></div><div class="mix"><label for="volume">미리듣기 음량</label><input id="volume" type="range" min="0" max="100" value="55" /><output id="volume-value" for="volume">55%</output><button id="stop" type="button">■ 정지</button></div></section>
+    <nav class="filters" aria-label="소리 분류"><div class="tabs" role="tablist" aria-label="분류"><button role="tab" data-tab="music" aria-selected="false" tabindex="-1">배경음악 <span>1</span></button><button role="tab" data-tab="train" aria-selected="true">무기칸 <span>13</span></button><button role="tab" data-tab="enemy" aria-selected="false" tabindex="-1">몬스터 <span>68</span></button><button role="tab" data-tab="system" aria-selected="false" tabindex="-1">전장·알림</button><button role="tab" data-tab="all" aria-selected="false" tabindex="-1">전체 효과음</button></div><label class="search"><span>검색</span><input id="search" type="search" placeholder="이름 또는 공격 방식" autocomplete="off" /></label></nav>
+    <div class="section-heading"><h2 id="section-title">무기마다 다른 한 발</h2><p id="result-count"></p></div>
+    <p id="music-note" class="music-note" hidden>선택된 배경음악은 ‘철의 공성전’입니다. 시안보다 음원 레벨을 3dB 낮추고 전투 구간을 반복하도록 다듬었습니다.<br>게임에서는 일시정지 메뉴의 BGM 음량으로 조절할 수 있습니다. 이 페이지에서는 미리듣기 음량을 사용합니다.</p>
+    <div id="catalog" class="catalog" role="tabpanel" aria-labelledby="section-title"></div>
+    <p id="empty" hidden>일치하는 소리가 없습니다. 다른 이름으로 검색해 보세요.</p>
+    <footer><p>게임과 동일한 효과음과 음량 설정을 사용합니다. 한 번에 한 소리만 들려주며, 탭을 전환하면 멈춥니다.</p><details><summary>소리의 출처와 라이선스</summary><p>효과음에는 CC0 공개 음원을 편집한 소리와 직접 합성한 소리가 함께 쓰였습니다. 레이저·테슬라의 새 효과음과 게임 BGM 1곡은 이 게임을 위해 직접 제작했습니다. 아래는 사용한 공개 음원의 출처입니다.</p><ul id="credits"></ul></details><a href="/">철도 방위대로 돌아가기 →</a></footer>
+  </main>
+  <script type="module" src="/src/sounds.ts"></script>
+</body>
+</html>

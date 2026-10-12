@@ -1,0 +1,57 @@
+@import "./fonts.css";
+:root { color-scheme: dark; --paper: #e7dfc2; --muted: #aeb49f; --gold: #d4ae60; --line: #505844; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--paper); background: #1b251f; font-family: var(--font-body); font-size: 15px; line-height: 1.7; }
+body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .18; background: repeating-linear-gradient(0deg, transparent 0 47px, #6b7858 48px, transparent 49px), repeating-linear-gradient(90deg, transparent 0 47px, #6b7858 48px, transparent 49px); }
+a { color: inherit; text-underline-offset: 4px; }
+button, input { font: inherit; }
+button, .back { min-height: 44px; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid #efc36d; outline-offset: 4px; }
+.masthead { display: flex; align-items: center; justify-content: space-between; padding: 16px max(5vw, 20px); border-bottom: 1px solid var(--line); background: #172019; }
+.brand { font-family: var(--font-display); letter-spacing: 1px; font-size: 23px; text-decoration: none; }
+.brand span { font-family: var(--font-body); font-size: 12px; color: var(--muted); margin-left: 12px; letter-spacing: 0; }
+.back { display: flex; align-items: center; font-size: 14px; }
+main { max-width: 1160px; margin: auto; padding: 48px 28px 32px; }
+.intro { display: flex; align-items: center; justify-content: space-between; gap: 32px; margin-bottom: 36px; }
+.eyebrow { font-size: 11px; letter-spacing: 2px; color: var(--gold); margin: 0 0 12px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.25; }
+h1 { font-size: clamp(42px, 6vw, 66px); margin: 0 0 16px; letter-spacing: -1px; }
+.lede { color: var(--muted); margin: 0; word-break: keep-all; }
+.stamp { display: grid; justify-items: center; min-width: 170px; padding: 16px 28px; border: 1px solid #82734e; border-radius: 50% 50% 4px 4px; color: var(--gold); box-shadow: inset 0 0 0 6px #1b251f, inset 0 0 0 7px #504d37; }
+.stamp strong { font-family: var(--font-display); font-weight: 400; font-size: 62px; line-height: 1.1; }
+.stamp span { font-size: 15px; }.stamp small { font-size: 10px; letter-spacing: 1px; margin-top: 10px; color: var(--muted); }
+.console { padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 20px; background: #111b16; border: 1px solid var(--line); box-shadow: 0 4px 0 #111910; }
+.play-status { display: flex; align-items: center; gap: 12px; font-size: 13px; }.signal { width: 8px; height: 8px; background: #646f5a; border-radius: 50%; flex-shrink: 0; }.playing .signal { background: #efc56b; box-shadow: 0 0 12px #d1a447; }
+.mix { display: flex; align-items: center; gap: 10px; flex-shrink: 0; font-size: 12px; }.mix input { width: 95px; accent-color: var(--gold); }.mix output { min-width: 35px; font-variant-numeric: tabular-nums; }
+#stop { color: var(--paper); background: #2c382b; border: 1px solid #5c644b; padding: 0 14px; }
+.filters { margin-top: 32px; display: flex; justify-content: space-between; gap: 20px; align-items: end; border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 16px; }.tabs button { background: none; color: var(--muted); border: 0; border-bottom: 3px solid transparent; padding: 12px 2px; white-space: nowrap; font-size: 14px; }.tabs button[aria-selected=true] { color: var(--gold); border-color: var(--gold); }.tabs span { font-size: 11px; opacity: .7; margin-left: 5px; }
+.search { display: flex; align-items: center; gap: 12px; font-size: 12px; padding-bottom: 10px; }.search span { color: var(--muted); }.search input { width: 190px; background: #162018; border: 1px solid var(--line); color: var(--paper); padding: 9px 12px; font-size: 13px; min-height: 44px; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; margin: 30px 0 18px; gap: 20px; }.section-heading h2 { font-size: 25px; margin: 0; }.section-heading p { margin: 0; color: var(--muted); font-size: 12px; }
+.catalog { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }.sound-card { padding: 20px; border: 1px solid #4c5541; border-top: 3px solid #687354; background: #263125; min-width: 0; display: flex; flex-direction: column; }
+.card-heading { display: flex; gap: 14px; align-items: center; margin-bottom: 18px; min-height: 90px; }.portrait { width: 64px; height: 64px; flex-shrink: 0; image-rendering: pixelated; background: #1b261c; border: 1px solid #43503a; }.card-heading h3 { margin: 0 0 8px; font-size: 22px; overflow-wrap: anywhere; }.card-heading p { font-size: 12px; line-height: 1.7; color: var(--muted); margin: 0; word-break: keep-all; overflow-wrap: anywhere; }
+.cue-list { display: flex; flex-direction: column; gap: 8px; margin-top: auto; }.cue { width: 100%; display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: #172219; color: var(--paper); border: 1px solid #536047; text-align: left; font-size: 13px; transition: border-color .15s, background .15s; }.cue:hover, .cue.playing-cue { background: #3f442b; border-color: var(--gold); }.play-icon { color: var(--gold); font-size: 10px; }.cue-label { flex: 1; }.cue small { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }.quiet { color: var(--muted); font-size: 12px; }
+#empty { padding: 40px; text-align: center; color: var(--muted); }footer { margin-top: 44px; border-top: 1px solid var(--line); padding-top: 24px; font-size: 12px; color: var(--muted); }footer>p { margin-top: 0; }footer>a { display: inline-block; margin-top: 22px; color: var(--gold); }details { max-width: 650px; }summary { cursor: pointer; min-height: 32px; }details li { margin: 6px 0; }details a { overflow-wrap: anywhere; }
+@media (max-width: 950px) { .catalog { grid-template-columns: repeat(2,minmax(0,1fr)); }.console { flex-direction: column; align-items: stretch; }.mix { justify-content: flex-end; }.filters { flex-direction: column; align-items: stretch; gap: 12px; }.search { justify-content: flex-end; }.tabs { justify-content: space-between; } }
+@media (max-width: 580px) { main { padding: 32px 18px; }.brand span { display: none; }.brand { font-size: 21px; }.intro { gap: 12px; }.stamp { min-width: 94px; padding: 14px; }.stamp strong { font-size: 42px; }.stamp small { display: none; }.stamp span { font-size: 11px; }.lede { font-size: 13px; }.eyebrow { letter-spacing: 1px; font-size: 9px; }.catalog { grid-template-columns: 1fr; }.tabs { gap: 8px; }.tabs button { font-size: 12px; }.tabs span { display: none; }.console { padding: 16px; }.mix { flex-wrap: wrap; justify-content: space-between; }.search input { flex: 1; width: auto; }.sound-card { padding: 18px; }.card-heading { min-height: 68px; }.section-heading h2 { font-size: 23px; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+/* Keep the slider and navigation comfortable on touch screens. */
+.mix input { min-height: 44px; }
+.brand { min-height: 44px; display: flex; align-items: center; }
+summary { min-height: 44px; }
+footer>a { min-height: 44px; display: inline-flex; align-items: center; }
+details a { display: inline-flex; align-items: center; min-height: 36px; }
+
+.music-note { color: var(--muted); font-size: 13px; margin: -2px 0 24px; word-break: keep-all; }
+.music-card { border-top-color: var(--gold); }
+.music-card .card-heading { align-items: start; margin-bottom: 0; }
+.music-kicker { display: block; color: var(--gold); font-size: 11px; margin-bottom: 16px; }
+.music-card h3 { font-size: 29px; margin-bottom: 14px; }
+.music-card .card-heading p { min-height: 62px; }
+.music-meta { font-size: 11px; color: var(--gold); margin: 20px 0; font-variant-numeric: tabular-nums; }
+.music-card progress { display: block; width: 100%; height: 5px; margin-top: 22px; accent-color: var(--gold); border: 0; background: #172219; }
+.music-card progress::-webkit-progress-bar { background: #172219; }
+.music-card progress::-webkit-progress-value { background: var(--gold); }
+.music-time { margin: 7px 0 0; color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+@media (max-width: 580px) { .tabs { overflow-x: auto; justify-content: flex-start; gap: 18px; padding: 4px 0; }.tabs button { flex-shrink: 0; }.music-card .card-heading p { min-height: 0; }.music-note { font-size: 12px; } }

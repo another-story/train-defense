@@ -1,0 +1,16 @@
+Self-hosted typefaces for Train Defense
+
+Do Hyeon — Do Hyeon Project Authors, SIL Open Font License 1.1
+https://github.com/google/fonts/tree/main/ofl/dohyeon
+Source: DoHyeon-Regular.ttf. Repackaged losslessly as WOFF2.
+License: DoHyeon-OFL.txt
+
+Noto Sans KR — Adobe, SIL Open Font License 1.1
+https://github.com/google/fonts/tree/main/ofl/notosanskr
+Source: NotoSansKR[wght].ttf. Variable weight range limited to 400–700
+and repackaged as WOFF2. All source glyphs retained, including Korean
+syllables, Jamo and Hanja for native nickname entry.
+License: NotoSansKR-OFL.txt
+
+Downloaded 2026-10-09 from the official Google Fonts repository.
+Built with fontTools 4.60.2 (temporary build tool; not a runtime dependency).

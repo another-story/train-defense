@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Do Hyeon";
+  src: url("/fonts/DoHyeon-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("/fonts/NotoSansKR-Variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+:root {
+  --font-body: "Noto Sans KR", sans-serif;
+  --font-display: "Do Hyeon", "Noto Sans KR", sans-serif;
+}

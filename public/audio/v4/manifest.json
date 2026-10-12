@@ -1,0 +1,41 @@
+{
+  "id": "coreDamage",
+  "url": "/audio/v4/coreDamage.wav",
+  "duration": 0.36,
+  "bytes": 17324,
+  "gain": 0.58,
+  "sourceUrl": "https://kenney.nl/assets/impact-sounds",
+  "license": "CC0",
+  "layers": [
+    {
+      "file": "impactMining_001.ogg",
+      "sha256": "61235a18de3f3d92118235398222dbf51d448f1be70b1c8bc962b10b86f2d9c6",
+      "speed": 0.82,
+      "delay": 0.0,
+      "length": 0.2,
+      "lowpass": 3000,
+      "gain": 1.0
+    },
+    {
+      "file": "impactMining_003.ogg",
+      "sha256": "4237fa2cd80364ad81cd0af44f67d7497f1c5edcc7bdb02cd22be2ba4580c83d",
+      "speed": 0.88,
+      "delay": 0.0,
+      "length": 0.13,
+      "lowpass": 1800,
+      "gain": 0.35
+    },
+    {
+      "file": "impactGlass_light_002.ogg",
+      "sha256": "710db7451bb7857b9140dfe6afe4621ea2188ad65eda3919c569d1bb285b933d",
+      "speed": 0.76,
+      "delay": 0.012,
+      "length": 0.29,
+      "lowpass": 3800,
+      "gain": 0.19
+    }
+  ],
+  "peak": 0.53,
+  "rms": 0.06370979411522784,
+  "sha256": "4dc5a3b095dd3e89e2b18774cf6293fa544be078cf5496788e0935a5ae195fd0"
+}

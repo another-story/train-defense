@@ -1,0 +1,50 @@
+[
+  {
+    "id": "laser",
+    "duration": 0.24,
+    "gain": 0.19,
+    "url": "/audio/v3/laser.wav",
+    "bytes": 11564,
+    "sha256": "6d7d632ff45123a2ee648b20c140d78252f17028b11b4783638a7fa262079552",
+    "peak": 0.319487,
+    "rms": 0.051442,
+    "centroidHz": 459.0,
+    "energyAbove2k": 0.000317
+  },
+  {
+    "id": "laserImpact",
+    "duration": 0.14,
+    "gain": 0.14,
+    "url": "/audio/v3/laserImpact.wav",
+    "bytes": 6764,
+    "sha256": "6a9550ee1629b54063b7acc2d639c75dfd1ea9ea37dabf10f88dfd77e07cfcec",
+    "peak": 0.24,
+    "rms": 0.041219,
+    "centroidHz": 463.9,
+    "energyAbove2k": 0.000374
+  },
+  {
+    "id": "tesla",
+    "duration": 0.54,
+    "gain": 0.22,
+    "url": "/audio/v3/tesla.wav",
+    "bytes": 25964,
+    "sha256": "6aa98b881b5a4f025e454b054c1f656c0fad13aaabfa71a09fa4a3747b077922",
+    "peak": 0.4,
+    "rms": 0.068533,
+    "centroidHz": 245.5,
+    "energyAbove2k": 0.000192
+  },
+  {
+    "id": "teslaImpact",
+    "duration": 0.25,
+    "gain": 0.16,
+    "url": "/audio/v3/teslaImpact.wav",
+    "bytes": 12044,
+    "sha256": "e4e5e0eed8457c809ff4929b827050f36edfe09949a2da832126b18c91a24f7f",
+    "peak": 0.279885,
+    "rms": 0.057492,
+    "centroidHz": 256.5,
+    "energyAbove2k": 0.000165
+  }
+]

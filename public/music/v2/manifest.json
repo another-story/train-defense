@@ -1,0 +1,24 @@
+{
+  "id": "iron-siege",
+  "title": "철의 공성전",
+  "url": "/music/v2/iron-siege.mp3",
+  "provider": "ACE Music / ACE-Step V1.5 XL Turbo",
+  "sourceSHA256": "02ed7b9839055446b725e06d3cdba6afba526fc803467d3c1b7968b2c67eeb4c",
+  "sha256": "47382631902a9fc65072b768b0705730681d4dfd9c61d0de12747d6658923af9",
+  "bytes": 769608,
+  "sourceRangeSeconds": [
+    16,
+    48
+  ],
+  "duration": 32.0,
+  "bars": 16,
+  "bpm": 120,
+  "crossfadeSeconds": 0.25,
+  "edgeTaperSeconds": 0.01,
+  "sourceGainDB": -12.69,
+  "changeFromAuditionDB": -3,
+  "decodedPeak": 0.2026941329240799,
+  "boundaryStep": 0.0014111740747466683,
+  "boundaryRmsChangeDB": -0.4162162804122862,
+  "notes": "Constant attenuation; no tempo or pitch change. Tail crossfaded to pre-roll. Subjective seam review not claimed."
+}
